@@ -1,4 +1,4 @@
-# Job Application Web Platform
+# Job Application Web Platform (Final University Project)
 
 ## Overview
 This project is a **Job Application Web Platform** designed to connect **job seekers** with **companies**, streamlining the hiring process while providing **data visualization** for administrators. It includes features such as **job applications, interview scheduling, event registration, and user management**.
