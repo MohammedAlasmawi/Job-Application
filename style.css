@@ -1,0 +1,629 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(201, 57, 57);
+  margin: -5px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-align: center;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: center;
+}
+
+
+input[type=text],[type=password],[type=date],[type=time],[type=email],[type=float]{
+    /* padding: 10; */
+    width: 70%;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 16%;
+    margin-bottom: 8px;
+    /* display: inline-block; */
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=submit] {
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(214, 80, 80);
+  }
+  .lform {
+    background-color: rgb(238, 220, 220);
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+  }
+  .dform {
+    background-color: rgb(238, 220, 220);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+  }
+
+  .dform1 {
+    
+    background-color: rgb(238, 220, 220);
+    margin-top: -45%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+  .dform2 {
+    
+    background-color: rgb(238, 220, 220);
+    border-radius: 50px;
+    
+  }
+  .fr_check {
+
+    margin-left: 28%;
+    margin-right: 20%;
+  }
+  .d1 {
+
+    margin-top: 2%;
+    margin-bottom: -20%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  }
+  .d2 {
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 0;
+    margin-right: 30%;
+  }
+
+  .d3 {
+
+    margin-top: -18%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  }
+  .d4 {
+
+    margin-top: -34%;
+    margin-left: 78%;
+    border-radius: 50px;
+    width: 22%;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .d5 {
+
+    margin-top: -32%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+  }
+
+  .appTable {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable1 {
+    margin-top: 0%;
+    margin-left: 35%;
+    width: 30%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable2 {
+    margin-top: 0%;
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable3 {
+    margin-top: 0%;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable4 {
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable5 {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .appTable6 {
+    margin-top: 0%;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .adminU1 {
+    margin-top: 0%;
+    margin-left: 18%;
+    width: 65%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+
+  .adminU2 {
+    margin-top: 5%;
+    margin-left: 18%;
+    width: 65%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+  .adminU3 {
+    margin-top: 0%;
+    margin-left: 38%;
+    width: 60%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+
+  .adminU4 {
+    margin-top: 0%;
+    margin-left: 42%;
+    width: 50%;
+    border-radius: 50px;
+    background-color: rgb(238, 220, 220);
+
+  }
+
+  .duration {
+    margin-left: 40%;
+
+  }
+
+  .buttonD {
+  border-radius: 50px;
+  height: 500px;
+  width: 20%;
+  top: 40%;
+  left: -50%;
+  background-color: rgb(238, 220, 220);
+
+  }
+
+  .subbtn {
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 42%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+  }
+  .subbtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .Cbtn {
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 38%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+  }
+  .Sbtn {
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 0%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+  }
+  .Sbtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .Cbtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .Rbtn {
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .Rbtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .Rbtn1 {
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .Rbtn1:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  
+  h2 {
+    text-align: center;
+    
+  }
+  .logo1 {
+    text-align: center;
+    padding-left: 25%;
+  }
+
+  .insertBtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+  }
+  .insertBtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .inBtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+  }
+  .inBtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+
+  .updateBtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .updateBtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  .updateBtn1{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 45%;
+  }
+  .updateBtn1:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+
+  .deleteBtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 0%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .deleteBtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+
+  .profileBtn{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30%;
+    color: black;
+    background-color: rgb(201, 57, 57);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .profileBtn:hover {
+    background-color:white;
+    transition: 0.7s;
+  }
+  table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: rgb(201, 57, 57);
+    color: white;
+  }
+
+  .profileT {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 0%;
+    margin-left: 25%;
+    height: 0;
+    
+  }
+  .profileT1 {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 0%;
+    height: 0;
+    margin-left: 11%;
+    
+  }
+  .profileT2 {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 0%;
+    height: 0;
+    margin-left: 18%;
+    
+  }
+
+  .profileT3 {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 0%;
+    height: 0;
+    margin-left: 18%;
+    
+  }
+  .profileT4 {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 0%;
+    height: 0;
+    margin-left: 18%;
+    
+  }
+  .profileT5 {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 90%;
+    height: 0;
+    margin-left: 5%;
+    
+  }
+
+  .interviewTS {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: none;
+    color: black;
+    width: 90%;
+    height: 0;
+    margin-left: 5%;
+    
+  }
+  
+  .logo2 {
+    border-radius: 8px;
+    padding: 5px;
+    width: 100px;
+    position: relative;
+    margin-left: -50px;
+  }
+
+  .imgB {
+
+    
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+  .collapse{
+    background-color: rgb(238, 220, 220);
+    border-radius: 50px;
+  }
+
+  
+  .select {
+    margin-left: 140px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .title {
+ margin-left: 0%;
+ margin-right: -50%;
+    
+  }
+
+.title1 {
+    margin-left: 65%;
+    margin-top: -40%;
+}
+
+.title2 {
+      margin-left: 25%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+     
+       }
+.title3 {
+      margin-left: 0%;
+      margin-top: 25%;
+       
+         }
+.title4 {
+          margin-left: 0%;
+          margin-top: -35%;
+          margin-bottom: 10%;
+           
+             }
+
+.chart1 { 
+        margin-left: 0%;
+        margin-right: 40%;
+         }
+.chart2 {
+  margin-left: 0%;
+  margin-right: 40%;
+           }
+.chart3 {
+  margin-left: 4%;
+  margin-right: 40%;
+             }
+.chart4 {
+              margin-left: 46%;
+              margin-right: 0%;
+                         }
+  .file{
+    margin-left: 200px;
+  }
+
+  
